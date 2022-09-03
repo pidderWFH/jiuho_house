@@ -7,54 +7,59 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%- title %></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <header class="bg-secondary p-3">
+      <div class="container ">
+        <div class="row justify-content-between text-align-center">
+          <div class="col-2">
+            <h1><a href="#"><img src="./assets/images/logo.svg" height="50" alt="jiuho_house"></a></h1>
+          </div>
+          <div class="col-6">
+            <nav>
+              <ul class="d-flex">
+                <li class="col-2 list-unstyled"><a class="text-decoration-none" href="#">可麗露</a></li>
+                <li class="col-3 list-unstyled"><a class="text-decoration-none" href="#">預購甜點</a></li>
+                <li class="col-3 list-unstyled"><a class="text-decoration-none" href="#">聯絡資訊</a></li>
+                <li class="col-3 list-unstyled"><a class="text-decoration-none" href="#">關於玖荷家</a></li>
+                <li class="col-2 list-unstyled"><a class="text-decoration-none" href="#">登入</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+            </nav>
+          </div>
         </div>
+        
+        
+        
       </div>
-    </nav>
-
+    </header>
     <%- contents %>
 
-    <footer class="footer">
-      footer
+    <footer class="bg-secondary p-3">
+      <div class="container ">
+        <div class="row justify-content-between">
+          <div class="col-2">
+            <img src="./assets/images/logo-mobile.svg" alt="jiuho_house">
+          </div>
+          <div class="col-8">
+            <p class="text-primary">Copyright © 2022 玖荷家甜點工作室 All rights reserved</p>
+          </div>
+          <div class="col-2">
+            <ul class="d-flex">
+              <li class="list-unstyled"><a class="text-decoration-none" href="#"><img height="30" src="./assets/images/ic_social_ig.png" alt="Instrgram"></a></li>
+              <li class="list-unstyled"><a class="text-decoration-none" href="#"><img height="30" src="./assets/images/ic_social_line.png" alt="Line"></a></li>
+              <li class="list-unstyled"><a class="text-decoration-none" href="#"><img height="30" src="./assets/images/ic-social-fb.png" alt="Facebook"></a></li>
+            </ul>
+          </div>
+        </div> 
+      </div>
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>
 

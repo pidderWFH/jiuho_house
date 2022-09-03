@@ -5,54 +5,256 @@ engine: ejs
 current: index
 ---
 
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
+<div class="bg-image text-center">
+  <p>影片</p>
 </div>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<div class="bg-primary">
+  <div class="container py-3">
+    <div class="swiper mySwiper text-center">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./assets/images/LINE_ALBUM_2022830_220902_0.jpg" class="img-thumbnail rounded img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/images/LINE_ALBUM_2022830_220902_1.jpg" class="img-thumbnail rounded img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/images/LINE_ALBUM_2022830_220902_2.jpg" class="img-thumbnail rounded img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/images/LINE_ALBUM_2022830_220902_11.jpg" class="img-thumbnail rounded img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/images/LINE_ALBUM_2022830_220902_16.jpg" class="img-thumbnail rounded img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./assets/images/LINE_ALBUM_2022830_220902_20.jpg" class="img-thumbnail rounded img-fluid" alt=""></div>
       </div>
-      <div class="modal-body">
-        ...
+      <div class="swiper-button-next text-secondary"></div>
+      <div class="swiper-button-prev text-secondary"></div>
+      <div class="swiper-pagination "></div>
+    </div>
+    <div class="mt-4 text-center">
+      <h2>你的好心情、壞心情，玖荷家通通包了!</h2>
+      <p>我們是一間可麗露甜點專門店，可麗露足足有9種口味可以選擇，<br>
+        除了可麗露外每日還有限量的蛋糕，不定時會更新口味，推出每日限量甜點喔<br>
+        玖荷家諧音台語「揪齁甲」，希望我們用心製作的甜點，好吃到讓你們覺得「揪齁甲」<br>
+        你的心情玖荷家通通包了！
+      </p>
+    </div>
+    <a href="#" class="text-decoration-none text-dark">
+      <span class="material-icons">
+        keyboard_arrow_left
+      </span>
+      關於玖荷家
+    </a>
+  </div>
+  <div class="container">
+    <div class="row mx-0 mt-4 justify-content-between">
+      <div class="col-4  mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/憂鬱星期一露露.png" class="card-img-top bg-secondary p-3" alt="憂鬱星期一露露">
+          <div class="card-body">
+            <h3 class="card-title text-center">憂鬱星期一</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary">加入購物車</a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="col-4 mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/焦糖朵朵露露.png" class="card-img-top bg-secondary p-3" alt="焦糖朵朵">
+          <div class="card-body">
+            <h3 class="card-title text-center">焦糖朵朵</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary ">加入購物車</a>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="col-4 mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/莓賣憨吉.png" class="card-img-top bg-secondary p-3" alt="莓賣憨吉">
+          <div class="card-body">
+            <h3 class="card-title text-center">莓賣憨吉</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary ">加入購物車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/18Summer.png" class="card-img-top bg-secondary p-3" alt="18歲的夏天">
+          <div class="card-body">
+            <h3 class="card-title text-center">18歲的夏天</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary ">加入購物車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/旺萊椒椒.png" class="card-img-top bg-secondary p-3" alt="旺萊椒椒">
+          <div class="card-body">
+            <h3 class="card-title text-center">旺萊椒椒</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary ">加入購物車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/提拉露露.png" class="card-img-top bg-secondary p-3" alt="提拉露露">
+          <div class="card-body">
+            <h3 class="card-title text-center">提拉露露</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary ">加入購物車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/玫瑰桃桃露露.png" class="card-img-top bg-secondary p-3" alt="玫瑰桃桃">
+          <div class="card-body">
+            <h3 class="card-title text-center">玫瑰桃桃</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary ">加入購物車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/原味露露.png" class="card-img-top bg-secondary p-3" alt="原味露露">
+          <div class="card-body">
+            <h3 class="card-title text-center">原味露露</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary ">加入購物車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 mb-4">
+        <div class="card" style="width: 15rem;">
+          <img src="./assets/images/檸檬露露.png" class="card-img-top bg-secondary p-3" alt="檸檬露露">
+          <div class="card-body">
+            <h3 class="card-title text-center">檸檬露露</h3>
+            <p class="card-text">酸度: 
+              <span class="material-icons">
+              star star star 
+              </span><br>
+              甜度:
+              <span class="material-icons">
+                star
+                </span>
+            </p>
+            <div class="d-flex justify-content-between">
+              <a href="#" class="btn btn-primary text-secondary">More</a>
+              <a href="#" class="btn btn-secondary text-primary ">加入購物車</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="text-end text-decoration-none text-dark mb-6">
+        詳細介紹
+        <span class="material-icons">
+          keyboard_arrow_right
+        </span>
+      </a>
+    </div>
+  </div>
+    
+  
+  <div class="container">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-8 mb-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.037257053702!2d121.43936457666837!3d24.998849945938105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681d9caccb04ff%3A0x960d27d0a4c39914!2z546W6I235a6255Sc6bue5bel5L2c5a6k772c5Y-v6bqX6Zyy5bCI6LOj5bqX!5e0!3m2!1szh-TW!2stw!4v1661686221984!5m2!1szh-TW!2stw" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-4 text-center">
+        <img class="mb-2" src="./assets/images/logo.svg" height="100" alt="">
+        <p >地址:  新北市板橋區大觀路二段154號1樓<br><br>電話: ( 02 ) - 2275 - 1691
+        </p>
+      </div>
+      <a href="#" class="text-decoration-none text-dark mb-6">
+        <span class="material-icons">
+          keyboard_arrow_left
+        </span>
+        詳細資訊
+      </a>
     </div>
   </div>
 </div>
