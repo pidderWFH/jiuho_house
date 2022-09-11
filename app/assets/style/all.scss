@@ -1,5 +1,11 @@
 @import "../../../node_modules/bootstrap/scss/functions";
+
+//自定義變數 variables
 @import "./helpers/variables";
+
+// 自定義utilites 須放在bootstrap前面
+@import "./helpers/utilities";
+
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 

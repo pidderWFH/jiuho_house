@@ -3,11 +3,14 @@ $(function() {
 });
 
 var swiper = new Swiper(".mySwiper", {
-  spaceBetween: 30,
+  
+  slidesPerView: 1,
+  spaceBetween: 8,
+  autoHeight: true,
   loop: true,
   centeredSlides: true,
   autoplay: {
-    delay: 2500,
+    delay: 3500,
     disableOnInteraction: false,
   },
   pagination: {
@@ -19,3 +22,4 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+AOS.init();
